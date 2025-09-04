@@ -16,3 +16,21 @@ const calculateLetterGrade = (numericGrade) => {
   }
   return "F";
 };
+
+// Test cases
+const testGrades = [95, 87, 74, 58, 92, 68];
+
+// Run tests and display results
+testGrades.forEach((grade) => {
+  console.info(`Grade ${grade}: ${calculateLetterGrade(grade)}`);
+});
+
+//
+// Expected Output:
+// Grade 95: A
+// Grade 87: B
+// Grade 74: C
+// Grade 58: D
+// Grade 92: A
+// Grade 68: D
+//

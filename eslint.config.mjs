@@ -25,14 +25,6 @@ export default [
       // Variables (Clean Code)
       "no-var": "error",
       "prefer-const": "error",
-      "no-magic-numbers": [
-        "warn",
-        {
-          ignore: [0, 1, -1],
-          ignoreArrayIndexes: true,
-          ignoreDefaultValues: true,
-        },
-      ],
 
       // Functions (Clean Code)
       "max-params": ["warn", ESLINT_THRESHOLDS.MAX_FUNCTION_PARAMS],
